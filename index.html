@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>landing page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header_info">
+            <nav class="navigation">
+                <a href="#home"><span class="text-bold">Home</span></a>
+                <a href="#about"><span>About me</span></a>
+                <a href="#skills"><span>Skills</span></a>
+                <a href="#portfolio"><span>Portfolio</span></a>
+                <a href="contacts/contacts.html" target="_blank"><span>Contacts</span></a>
+            </nav>
+            <hr>
+            <div class="title" id="home">
+                <p class="text-bold">Damir <br> Idrisov</p>
+                <p>21 years old<br> Moscow/Kazan</p>
+                <p>RU | ENG</p>
+            </div>
+            
+        </div>
+    </header>
+    <main class="main">
+        <section class="about-me" id="about">
+            <picture>
+                <source media="(min-width: 1024px)" srcset="images/me.png">
+                <source media="(min-width: 768px)" srcset="images/me.png">
+                <source media="(min-width: 360px)" srcset="images/me.png">
+                <img src="images/me.png" class="header_image" alt="Тут должен быть я...">
+            </picture>
+            <div>
+                <h1 class="text-bold">About me</h1>
+                <p>Привет, Я Дамир – выпускник Вышки,<br> дипломированный ПриМат (сокр. от <b>прикладной математик</b>, не путать с <i>приматами</i>),<br>репетитор и начинающий web-разработчик</p>
+                <p>Сейчас я студент курса Шишова Михаила <br> по основам frontend-разработки. </p>
+                <p>С радостью поработаю над интересными проектами!</p>
+            </div>
+        </section>
+        <section class="skills">
+            <h1 class="text-bold" id="skills">Skills</h1>
+            <p>Я работаю с</p>
+            <div class="skills_levels">
+                <div class="skill">    
+                    <img src="images/pt.png" alt="python">
+                    <p>Python3</p>
+                    <meter value="15" max="100" low="40" high="70"></meter>
+                </div>
+                <div class="skill">
+                    <img src="images/html.png" alt="html">
+                    <p>HTML5</p>
+                    <meter value="65" max="100" low="30" high="70"></meter>
+                </div>
+                <div class="skill">
+                    <img src="images/css.png" alt="css">
+                    <p>CSS3</p>
+                    <meter value="40" max="100" low="30" high="70"></meter>
+                </div>      
+            </div>
+        </section>
+        <section class="portfolio" id="portfolio">
+            <h1 class="text-bold">Portfolio</h1>
+            <a href="https://profi.ru/profile/IdrisovDR/" target="_blank">Моя анкета на profi.ru</a>
+            <a href="https://www.hse.ru/edu/vkr/473580435" target="_blank">Моя выпускная (дипломная) кваллификационная работа <br> в области инвестиций</a>
+            <p>Coming soon...</p>
+        </section>
+    </main>
+</body>
+</html>

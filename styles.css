@@ -1,0 +1,112 @@
+@import url('normalize.css');
+@font-face {
+    font-family: GilroyBold;
+    src: url(fonts/gilroy-bold.ttf);
+}
+@font-face {
+    font-family: GilroyMedium;
+    src: url(fonts/gilroy-medium.ttf);
+}
+.header{
+    display: flex;
+    justify-content: center; 
+}
+.header_info{
+    display: block;
+    max-width: 960px;
+    max-height: 663px;
+    background-color: #fff;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'GilroyMedium', sans-serif;
+    font-size: 18px;
+}
+.navigation a{
+    padding: 32px 0 32px 0;
+    text-decoration: none;
+    color: #828282;
+}
+.navigation a:hover{
+    color: rgb(118, 75, 238);
+}
+.title{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'GilroyMedium', sans-serif;
+    align-items: center;
+    font-size: 18px;
+    width: 960px;
+}
+.header_image{
+    height: 500px;
+    width: auto;
+}
+.text-bold{
+    font-family: 'GilroyBold', sans-serif;
+    color: #000;
+}
+.title p:first-child{
+    font-size: 48px;
+}
+.portfolio{
+    background-color: #e5e5e5;
+    font-family: 'GilroyMedium', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 18px;
+    padding: 5% 5% 5% 5%;
+    text-align: center;
+}
+.about-me{
+    background-color: #e5e5e5;
+    font-family: 'GilroyMedium', sans-serif;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 18px;
+    padding: 5% 5% 5% 5%;
+    text-align: center;
+}
+.about-me p{
+    text-align: center;
+}
+.about-me picture{
+    margin-left: 10%;
+}
+.portfolio a{
+    text-decoration: none;
+    color: #000;
+    font-style: italic;
+    padding-bottom: 20px;
+}
+.portfolio a:hover{
+    color: rgb(118, 75, 238);
+}
+.skills{
+    font-family: 'GilroyMedium', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 18px;
+    padding: 5% 5% 5% 5%;
+    text-align: center;
+    background-color: #fff;
+
+}
+.skills_levels{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 50%;
+    padding-left: 4%;
+}
+.skill{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+}
